@@ -1,0 +1,23 @@
+
+{
+      "tradesmen": [
+        {
+          "id": 1,
+          "name": "John Doe",
+          "expertise": ["Plumbing", "Electrical", "Solar Installation"],
+          "region": "Nairobi, Kenya",
+          "contactNumber": "+254712345678",
+          "profileDetails": "Highly skilled plumber and electrician...",
+          "photo": "https://placehold.co/150x150/EEE/31343C?text=JD&font=Montserrat"
+        },
+        {
+          "id": 2,
+          "name": "Jane Smith",
+          "expertise": ["Carpentry", "Painting", "Interior Finishing"],
+          "region": "Mombasa, Kenya",
+          "contactNumber": "+254798765432",
+          "profileDetails": "Expert carpenter and painter...",
+          "photo": "https://placehold.co/150x150/EEE/31343C?text=JS&font=Montserrat"
+        }
+      ]
+    }

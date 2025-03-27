@@ -1,0 +1,66 @@
+/* Custom styles for header - Distinctive look */
+.header {
+    background: linear-gradient(to right, #4a5568, #2d3748);
+}
+.header h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+.header nav a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+.header nav a:hover {
+    color: #f56565;
+    transform: translateY(-2px);
+}
+.card {
+    font-family: 'Inter', sans-serif;
+    border-radius: 0.75rem;
+    box-shadow: 0 6px 10px -2px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 12px 20px -3px rgba(0, 0, 0, 0.2);
+}
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2d3748;
+}
+.about-us-content {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7;
+    color: #4a5568;
+}
+.about-us-content p {
+    margin-bottom: 1.25rem;
+}
+.footer {
+    background-color: #2d3748;
+}
+.footer p {
+    color: #cbd5e0;
+}
+.dark .header {
+    background: linear-gradient(to right, #1a202c, #171923);
+}
+.dark .header h1{
+     color: #f56565;
+}
+.dark .header nav a {
+    color: #d1d8e3;
+}
+.dark .card {
+    background-color: #1a202c;
+    border-color: #4a5568;
+}
+.dark .card-title {
+    color: #f7fafc;
+}
+.dark .about-us-content {
+    color: #d1d8e3;
+}
